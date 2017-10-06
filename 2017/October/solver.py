@@ -34,7 +34,7 @@ def assemble_words(compiled_word, remaining_choices):
     if len(remaining_choices) == 0:
         # is the compiled word a valid word?
         if compiled_word.lower() in word_list:
-            print "ANSWER FOUND: ", compiled_word.lower()
+            print("ANSWER FOUND: " + compiled_word.lower())
             return
     else:
         next_group = remaining_choices[0]
