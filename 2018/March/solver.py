@@ -1,5 +1,3 @@
-import string
-
 word_list_file = open('tools/words_alpha.txt', 'r')
 
 three_letter_word_list = []
